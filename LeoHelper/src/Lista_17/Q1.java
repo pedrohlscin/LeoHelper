@@ -11,6 +11,10 @@ public class Q1 {
         Scanner in = new Scanner(System.in);
         System.out.println("Informe um numero positivo: ");
         int entrada = in.nextInt();
+        while(entrada < 1) {
+            System.out.println("Informe um numero positivo: ");
+            entrada = in.nextInt();
+        }
         System.out.println("A soma dos valores é: " + somaValoresInterativo(entrada));
     }
 
