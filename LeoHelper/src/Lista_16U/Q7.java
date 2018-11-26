@@ -6,6 +6,6 @@ public class Q7 {
     }
 
     private static double jogarDado() {
-        return ThreadLocalRandom.current().nextInt(0,7) % 7;
+        return ThreadLocalRandom.current().nextInt(0,6);
     }
 }
